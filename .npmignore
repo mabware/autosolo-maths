@@ -1,0 +1,8 @@
+.vscode
+coverage
+node_modules
+.gitignore
+autosolo-maths.spec.js
+babel.config.js
+package-lock.json
+webpack.config.js
