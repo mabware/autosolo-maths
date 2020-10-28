@@ -1,11 +1,12 @@
 {
   "name": "@mabware/autosolo-maths",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./dist/autosolo-maths.js",
   "scripts": {
     "build": "webpack",
     "test": "jest --watch --runInBand --detectOpenHandles",
-    "test:ci": "jest --coverage --runInBand --detectOpenHandles"
+    "test:ci": "jest --coverage --runInBand --detectOpenHandles",
+    "prepublishOnly": "webpack --mode=production"
   },
   "repository": {
     "type": "git",

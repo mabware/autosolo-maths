@@ -1,10 +1,10 @@
 const path = require('path');
 
 module.exports = {
-  entry: './index.js',
+  entry: './autosolo-maths.js',
   output: {
-    path: path.resolve(__dirname, 'lib'),
-    filename: 'index.js',
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'autosolo-maths.js',
     library: 'AutosoloMath',
     libraryTarget: 'var'
   },
