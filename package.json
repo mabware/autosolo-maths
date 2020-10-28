@@ -1,7 +1,6 @@
 {
-  "name": "autosolo-maths",
+  "name": "@mabware/autosolo-maths",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -10,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/michael-bartlett/autosolo-maths.git"
+    "url": "git+https://github.com/mabware/autosolo-maths.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/michael-bartlett/autosolo-maths/issues"
+    "url": "https://github.com/mabware/autosolo-maths/issues"
   },
-  "homepage": "https://gitlab.com/michael-bartlett/autosolo-maths#readme",
+  "homepage": "https://github.com/mabware/autosolo-maths#readme",
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
@@ -25,5 +24,7 @@
     "jest": "^26.5.3",
     "webpack": "^5.1.3",
     "webpack-cli": "^4.0.0"
-  }
+  },
+  "dependencies": {},
+  "description": ""
 }
