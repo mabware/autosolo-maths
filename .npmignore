@@ -6,3 +6,4 @@ autosolo-maths.spec.js
 babel.config.js
 package-lock.json
 webpack.config.js
+.eslintrc.js
