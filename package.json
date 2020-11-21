@@ -1,6 +1,6 @@
 {
   "name": "@mabware/autosolo-maths",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "./dist/autosolo-maths.js",
   "scripts": {
     "build": "webpack",
