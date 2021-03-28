@@ -6,6 +6,6 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'autosolo-maths.js',
     library: 'AutosoloMath',
-    libraryTarget: 'var',
+    libraryTarget: 'umd',
   },
 };
